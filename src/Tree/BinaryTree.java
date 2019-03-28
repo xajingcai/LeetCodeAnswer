@@ -29,4 +29,20 @@ public class BinaryTree {
             }
         }
     }
+
+    /**
+     * 二叉树的中序遍历（非递归实现）
+     * @param node
+     */
+    public void inOrderUnRecur(TreeNode node){
+        if(node != null){
+            Stack<TreeNode> stack = new Stack<TreeNode>();
+            while(!stack.isEmpty() || node != null){
+                if(node != null){
+                    stack.push(node);
+                    node = node.leftNode;
+                }
+            }
+        }
+    }
 }
