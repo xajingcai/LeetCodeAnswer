@@ -41,6 +41,9 @@ public class BinaryTree {
                 if(node != null){
                     stack.push(node);
                     node = node.leftNode;
+                }else{
+                    node = stack.pop();
+                    node = node.rightNode;
                 }
             }
         }
