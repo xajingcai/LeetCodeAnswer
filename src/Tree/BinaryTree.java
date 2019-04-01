@@ -3,7 +3,7 @@ package Tree;
 import java.util.Stack;
 
 /**
- * 二叉树
+ * 二叉树实现
  */
 public class BinaryTree {
 
