@@ -38,6 +38,7 @@ public class AccountingSync implements Runnable {
 
         //Integer n = ((int even, int odd) -> even + odd);
         //(int a, int b) -> {  return a + b; }
+        System.out.println("增量版本抽取测试1");
 
 
     }
