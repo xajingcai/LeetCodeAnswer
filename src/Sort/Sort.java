@@ -14,6 +14,7 @@ public class Sort {
         }
     }
 
+
     public static void main(String[] args) {
         int a[] = {100,3,1,1,5,2,4};
         insertSort(a);
