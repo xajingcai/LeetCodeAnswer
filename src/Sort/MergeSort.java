@@ -43,4 +43,16 @@ public class MergeSort {
             arr[left++] = temp[t++];
         }
     }
+
+    /**
+     * 重写的归并排序，使用插入排序完成归并
+     * @param array 待排序数组
+     * @param right 右序列起始位置
+     * @param mid   中值
+     * @param left  左序列起始位置
+     * @param temp  临时数组
+     */
+    public static void mergeByInsert(int array,int right,int mid,int left,int[] temp){
+
+    }
 }
